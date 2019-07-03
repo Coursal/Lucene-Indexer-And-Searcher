@@ -45,7 +45,7 @@ public class Searcher
     
     public static void main(String[] args) throws IllegalArgumentException, IOException, ParseException, org.apache.lucene.queryparser.classic.ParseException 
     {
-        if (args.length != 2) 
+        if(args.length != 2) 
         {
             throw new IllegalArgumentException("Usage: java " + Searcher.class.getName() + " <index dir> <query>");
         }

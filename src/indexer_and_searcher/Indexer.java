@@ -58,9 +58,9 @@ public class Indexer
     {
         File[] files = new File(dataDir).listFiles();
 
-        for (File f: files) 
+        for(File f: files) 
         {
-            if (!f.isDirectory() && !f.isHidden() && f.exists() && f.canRead() && (filter == null || filter.accept(f))) 
+            if(!f.isDirectory() && !f.isHidden() && f.exists() && f.canRead() && (filter == null || filter.accept(f))) 
             {
                 indexFile(f);
             }
