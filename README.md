@@ -25,3 +25,4 @@ where `<index dir>` is the `Index` directory and `<query>` is the search term gi
 ![](http://i68.tinypic.com/2lka9z9.png)
 ![](http://i68.tinypic.com/2h655qu.png)
 
+Essential Lucene 8.0.0 API `.jar` files included.
